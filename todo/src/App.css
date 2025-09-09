@@ -1,13 +1,13 @@
-body{
-  background-color: blue;
-  min-width: auto;
-  
-}
+
 .main{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: grey;
+  min-width: 100px;
+  min-height: 200px;
 
 }
+
 
