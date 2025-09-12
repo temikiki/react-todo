@@ -1,13 +1,68 @@
 
 .main{
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: grey;
-  min-width: 100px;
-  min-height: 200px;
-
+  min-width: 100vw;
+  min-height: 100vh;
+ background-color: rgb(1, 25,54);;
+  
 }
 
+input{
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid rgb(1, 25,54);
+  font-weight: bold;
+  margin-left: 40px;
+  justify-content: center;
+  align-items: center;
+}
 
+.card{
+  background-color:  #f4fffd;
+  border: 2px solid none;
+  border-radius: 15px;
+ padding: 15px;
+ margin: 25px;
+ justify-content: center;
+ align-items: center;
+
+}
+h1{
+  text-align: center;
+  font-size: 25px;
+  color: rgb(1, 25,54);
+
+}
+ol{
+  padding: 5px;
+ 
+}
+  
+li{
+  padding: 5px;
+  color: rgb(1, 25,54);
+  font-weight: bold;
+   display: flex;
+  flex: 1;
+}
+
+button{
+  padding: 5px;
+  margin: 3px;
+  background-color: rgb(1, 25,54);
+  color: #f4fffd ;
+  border-radius: 5px;
+  border: none;
+  box-shadow: none;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #CFD7C7;
+  color: rgb(1, 25,54) ;
+  font-weight: bold;
+}
+.cta-1{
+  padding: 10px 20px;
+}

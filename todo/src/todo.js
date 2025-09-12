@@ -66,17 +66,16 @@ if(index < task.length-1){
 }
 
 return(
-    <div>
-          <h1>To Do List</h1>
-        <div>
-  
+    <div className="main">
+         
+        <div className="card">
+     <h1>To Do List</h1> 
         <input type = "text" 
         placeholder="enter a task"
         value={newTask}
         onChange={handlechange}/>
-        <button onClick={addtask}>Add</button>
-        </div>
-        <ol>
+        <button className="cta-1" onClick={addtask}>Add</button>
+         <ol>
           {  task.map((task, index) =>
              <li key={index}><span> {task}</span> 
              <button onClick={() => deletetask(index)}>Delete</button>
@@ -85,6 +84,8 @@ return(
              </li>)}
         </ol>
         
+        </div>
+       
     </div>
 )
 
